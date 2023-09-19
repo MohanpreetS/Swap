@@ -11,8 +11,8 @@ const ServiceSection = () => {
                     <div className="col-xxl-5 col-lg-6">
                         <div className="kservice-text mb-50" data-aos="fade-right" data-aos-duration="1000">
                             {/* <h5 className="kservice-text-subtitle mb-15">All Categories List</h5> */}
-                            <h2 className="kservice-text-title mb-40">The Services <br />We’re Offering</h2>
-                            <p className="mb-45">At Swap Solutions, we fuse creativity with technical expertise. Our websites are immersive journeys, not just pages. We elevate visibility through precise SEO strategies, ensuring your voice resonates. Mobile apps are extensions of your brand, crafted for seamless interaction. In operations, our ERP solutions bring clarity to complexity. And in relationships, our CRM software transforms transactions into connections. We're not just providers; we're partners in your digital journey, redefining what's possible for your brand.</p>
+                            <h2 className="kservice-text-title mb-40">The Services <br />We Offer</h2>
+                            <p className="mb-45">At Swap Solutions, we fuse creativity with technical expertise. Our websites are immersive journeys, not just pages. We elevate visibility through precise SEO strategies, ensuring your voice resonates. Mobile apps are extensions of your brand, crafted for seamless interaction. In operations, our ERP solutions bring clarity to complexity. And in relationships, our CRM software transforms transactions into connections. We&apos;re not just providers; we&apos;re partners in your digital journey, redefining what&apos;s possible for your brand.</p>
                             {/* <div className="kservice-author">
                                 <div className="kservice-author-img mr-30">
                                     <Image src={author} style={{ width: "100%", height: "auto" }} alt="img not found" />

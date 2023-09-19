@@ -23,14 +23,18 @@ const AboutSection = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="kabout-btn">
+                            <Link href="/service" className="theme-btn border-btn">Discover more</Link>
+                        </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="kabout mb-50" data-aos="zoom-out-down">
                             <div className="section-title-wrapper mb-45">
                                 <h5 className="section-subtitle mb-20">get to know us</h5>
                                 <h2 className="section-title mb-35">Welcome to<br />Swap Solutions</h2>
-                                <p>A digital agency is a creative and strategic company that specializes in providing a range of online services to help businesses establish a strong and effective digital presence.</p>
+                                <p>Welcome to Swap Solutions, where innovation meets excellence in the digital realm. We are a dynamic force in the world of web development, SEO optimization, app development, and ERP/CRM solutions. With a passion for crafting seamless user experiences and a commitment to driving online visibility, our team of skilled professionals is dedicated to empowering businesses of all sizes. Whether you're looking to establish a compelling online presence, optimize your search engine rankings, or streamline your operations with cutting-edge software solutions, Swap Solutions is your trusted partner in achieving digital success. Explore our comprehensive suite of services and let us help you navigate the ever-evolving landscape of the digital world.</p>
                             </div>
+
                             <div className="row">
                                 <div className="col-sm-6">
                                     <div className="kabout-service mb-30">
@@ -45,14 +49,12 @@ const AboutSection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <ul className="mt-20 mb-55">
+                            {/* <ul className="mt-20 mb-55">
                                 <li><i className="fal fa-check"></i> Digital Marketing Strategies.</li>
                                 <li><i className="fal fa-check"></i> E-commerce Solutions.</li>
                                 <li><i className="fal fa-check"></i> Social Media Management.</li>
-                            </ul>
-                            <div className="kabout-btn">
-                                <Link href="/service" className="theme-btn border-btn">Discover more</Link>
-                            </div>
+                            </ul> */}
+
                         </div>
                     </div>
                 </div>

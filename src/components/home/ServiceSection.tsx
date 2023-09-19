@@ -5,22 +5,22 @@ import author from "../../../public/assets/img/service/service-author.png";
 
 const ServiceSection = () => {
     return (
-        <section className="service-area pt-120 pb-130" style={{ backgroundImage: `url(${'/assets/img/service/service-bg.jpg'})` }}>
+        <section className="service-area pt-120 pb-80" style={{ backgroundImage: `url(${'/assets/img/service/service-bg.jpg'})` }}>
             <div className="container">
                 <div className="row justify-content-between">
                     <div className="col-xxl-5 col-lg-6">
                         <div className="kservice-text mb-50" data-aos="fade-right" data-aos-duration="1000">
                             {/* <h5 className="kservice-text-subtitle mb-15">All Categories List</h5> */}
                             <h2 className="kservice-text-title mb-40">The Services <br />We’re Offering</h2>
-                            <p className="mb-45">There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour.</p>
-                            <div className="kservice-author">
+                            <p className="mb-45">At Swap Solutions, we fuse creativity with technical expertise. Our websites are immersive journeys, not just pages. We elevate visibility through precise SEO strategies, ensuring your voice resonates. Mobile apps are extensions of your brand, crafted for seamless interaction. In operations, our ERP solutions bring clarity to complexity. And in relationships, our CRM software transforms transactions into connections. We're not just providers; we're partners in your digital journey, redefining what's possible for your brand.</p>
+                            {/* <div className="kservice-author">
                                 <div className="kservice-author-img mr-30">
                                     <Image src={author} style={{ width: "100%", height: "auto" }} alt="img not found" />
                                 </div>
                                 <div className="kservice-author-sign">
                                     <span>Ravi Inder Singh</span>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-xxl-6 col-lg-6">
@@ -61,7 +61,7 @@ const ServiceSection = () => {
                                         <i className="flaticon-website"></i>
                                     </div>
                                     <div className="kservice-content">
-                                        <h5 className="kservice-content-title"><Link href="/service-details">Digital <br />marketing</Link></h5>
+                                        <h5 className="kservice-content-title"><Link href="/service-details">ERP & CRM<br />Solutions</Link></h5>
                                     </div>
                                 </div>
                             </div>

@@ -61,7 +61,7 @@ const ServiceSection = () => {
                                         <i className="flaticon-website"></i>
                                     </div>
                                     <div className="kservice-content">
-                                        <h5 className="kservice-content-title"><Link href="/service-details">ERP & CRM<br />Solutions</Link></h5>
+                                        <h5 className="kservice-content-title"><Link href="/service-details">ERP & CRM <br />Solutions</Link></h5>
                                     </div>
                                 </div>
                             </div>

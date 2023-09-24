@@ -1,15 +1,21 @@
 import { menusType } from "@/interFace/interFace";
 
-const menu_data:menusType[] = [
+const menu_data: menusType[] = [
+  // {
+  //   id: 1,
+  //   hasDropdown: true,
+  //   title: "Home",
+  //   link: "/",
+  //   submenus: [
+  //     { title: "Home Style 1", link: "/" },
+  //     { title: "Home Style 2", link: "/home-two" },
+  //   ],
+  // },
   {
     id: 1,
-    hasDropdown: true,
+    hasDropdown: false,
     title: "Home",
     link: "/",
-    submenus: [
-      { title: "Home Style 1", link: "/" },
-      { title: "Home Style 2", link: "/home-two" },
-    ],
   },
   {
     id: 2,

@@ -24,7 +24,7 @@ const HomeMain = () => {
       <TestimonialSection testimonial_space="" />
       <BrandSection brand_space="" />
       <TrustSection />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <QualitySection />
       <MapSection />
     </>

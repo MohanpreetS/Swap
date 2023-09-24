@@ -15,7 +15,7 @@ const QualitySection = () => {
                             </div>
                             <div className="kquality-text fix">
                                 <h3 className="mb-20 kquality-text-title">We Deliver the Best Quality</h3>
-                                <p>Explore how digital agencies help businesses establish and maintain a consistent and impactful online brand presence.</p>
+                                <p>Explore how Swap Solutions helps businesses establish and maintain a consistent and impactful online brand presence.</p>
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 const ProjectSection = () => {
     return (
-        <section className="project-area bg-grey pt-115 pb-400 fix" >
+        <section className="project-area bg-grey pt-115 pb-200 fix" >
             <div className="common-shape-wrapper wow slideInRight animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div className="common-shape-inner"></div>
             </div>

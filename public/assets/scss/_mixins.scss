@@ -1,7 +1,7 @@
-
 @function _rgba($color, $opacity: 1) {
   @return unquote("rgba(#{red($color)}, #{green($color)}, #{blue($color)}, #{$opacity})");
 }
+
 @function _rem($target, $context: 16) {
   @return ($target / $context) * 1rem;
 }
@@ -12,6 +12,7 @@
   -o-transition: all $time linear 0s;
   transition: all $time linear 0s;
 }
+
 @mixin transform($value) {
   -webkit-transform: $value;
   -ms-transform: $value;
@@ -22,49 +23,64 @@
   &::-webkit-input-placeholder {
     @content;
   }
+
   &:-moz-placeholder {
     @content;
   }
+
   &::-moz-placeholder {
     @content;
   }
+
   &:-ms-input-placeholder {
     @content;
   }
 }
 
 @mixin mq($value) {
+
+  // @if $value=='xxl' {
+  //   @media (min-width: 1400px) and (max-width: 1700px) {
+  //     @content;
+  //   }
+  // }
   @if $value=='xxl' {
-    @media (min-width: 1400px) and (max-width: 1700px) {
+    @media (min-width: 1400px) {
       @content;
     }
   }
+
   @if $value=='xl' {
     @media (min-width: 1200px) and (max-width: 1399px) {
       @content;
     }
   }
+
   @if $value=='lg' {
     @media (min-width: 992px) and (max-width: 1199px) {
       @content;
     }
   }
+
   @if $value=='md' {
     @media (min-width: 768px) and (max-width: 991px) {
       @content;
     }
   }
+
   @if $value=='xs' {
     @media (max-width: 767px) {
       @content;
     }
   }
+
   @if $value=='sm' {
     @media (min-width: 480px) and (max-width: 767px) {
       @content;
     }
   }
 }
+
 @mixin cmq($min, $max) {
   @media (min-width: $min) and (max-width: $max) {
     @content;
@@ -85,5 +101,5 @@
 
 
 // @include mq(xl){
-                    
+
 // }

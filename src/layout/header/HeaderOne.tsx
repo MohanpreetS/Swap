@@ -11,6 +11,7 @@ import useScrollDirection from "@/hooks/sticky-header";
 import Menus from "./Menus";
 import HeaderSearch from "./HeaderSearch";
 import MobileMenu from "./MobileMenu";
+import PopUpForm from "@/components/contact/PopUpForm";
 
 const HeaderOne = () => {
   const { toggleSideMenu, sideMenuOpen, toggleSearchMenu } = useContext(AppContext) as AppContextType;
@@ -22,20 +23,25 @@ const HeaderOne = () => {
           <div className="container-fluid">
             <div className="header-space">
               <div className="row align-items-center">
-                <div className="col-xl-2 col-8">
+                <div className="col-xl-2 col-6">
                   <div className="header-logo">
                     <Link href="/"><Image src={logo} style={{ width: "100%", height: "auto" }} alt="header logo" /></Link>
                   </div>
                 </div>
-                <div className="col-xl-7 col-4">
+                <div className="col-xl-7 col-6">
                   <div className="main-menu d-xl-block d-none">
                     <nav id="mobile-menu">
                       <Menus />
                     </nav>
                   </div>
                   <div className="side-menu-icon d-xl-none text-end">
-                    <button type="button" className="search-btn nav-search search-trigger" onClick={toggleSearchMenu}><i className="fas fa-search"></i></button>
-                    <button type="button" className="side-toggle" onClick={toggleSideMenu}><i className="far fa-bars"></i></button>
+                    {/* <PopUpForm isSmall={true} /> */}
+                    {/* <button type="button" className="search-btn nav-search search-trigger" onClick={toggleSearchMenu}>
+                      <i className="fas fa-search"></i>
+                    </button> */}
+                    <button type="button" className="side-toggle" onClick={toggleSideMenu}>
+                      <i className="far fa-bars"></i>
+                    </button>
                   </div>
                 </div>
                 <div className="col-xl-3 d-none d-xl-block">
@@ -46,12 +52,13 @@ const HeaderOne = () => {
                       <Link href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><i className="fab fa-pinterest-p"></i></Link>
                       <Link href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></Link>
                     </div> */}
-                    <div className="header-search">
+                    {/* <div className="header-search">
                       <button type="button" className="search-btn nav-search search-trigger" onClick={toggleSearchMenu}><i className="fas fa-search"></i></button>
-                    </div>
-                    <div className="header-btn">
+                    </div> */}
+                    <PopUpForm />
+                    {/* <div className="header-btn">
                       <Link href="/about" className="theme-btn theme-btn-small">Free Estimate</Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

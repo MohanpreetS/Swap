@@ -15,12 +15,13 @@ import shape1 from "../../../public/assets/img/slider/slider-shape-1.png";
 import shape2 from "../../../public/assets/img/slider/slider-shape-2.png";
 import Image from 'next/image';
 import { heroType } from '@/interFace/interFace';
+import PopUpForm from '../contact/PopUpForm';
 
 const hero_slider: heroType[] = [
   {
     id: 1,
     slideBg: slideBg1,
-    title: <>Web & Mobile<br /> Development</>,
+    title: <>Web & Mobile <br /> Development</>,
     subTitle: "Welcome to Swap Solutions",
     btn: "Request a Quote",
     shapeA: shape1,
@@ -29,7 +30,7 @@ const hero_slider: heroType[] = [
   {
     id: 2,
     slideBg: slideBg2,
-    title: <>ERP & CRM<br />Software</>,
+    title: <>ERP & CRM <br />Software</>,
     subTitle: "Welcome to Swap Solutions",
     btn: "Request a Quote",
     shapeA: shape1,
@@ -38,7 +39,25 @@ const hero_slider: heroType[] = [
   {
     id: 3,
     slideBg: slideBg3,
-    title: <>SEO & Lead<br />Generation</>,
+    title: <>SEO & Lead <br />Generation</>,
+    subTitle: "Welcome to Swap Solutions",
+    btn: "Request a Quote",
+    shapeA: shape1,
+    shapeB: shape2,
+  },
+  {
+    id: 4,
+    slideBg: slideBg3,
+    title: <>IT Service <br />Management</>,
+    subTitle: "Welcome to Swap Solutions",
+    btn: "Request a Quote",
+    shapeA: shape1,
+    shapeB: shape2,
+  },
+  {
+    id: 5,
+    slideBg: slideBg3,
+    title: <>Cybersecurity <br />Risk Assessment</>,
     subTitle: "Welcome to Swap Solutions",
     btn: "Request a Quote",
     shapeA: shape1,
@@ -62,6 +81,7 @@ const HeroSection = () => {
               disableOnInteraction: true
             }}
             pagination={{ clickable: true, }}
+
           >
             {hero_slider && hero_slider.map((item) => (
               <SwiperSlide key={item.id}>
@@ -73,9 +93,10 @@ const HeroSection = () => {
                         <div className="kslider z-index">
                           <h5 className="kslider--subtitle mb-25">{item.subTitle}</h5>
                           <h2 className="kslider--title mb-40">{item.title}</h2>
-                          <div className="kslider--btn">
+                          {/* <div className="kslider--btn">
                             <Link href="/service" className="theme-btn">{item.btn}</Link>
-                          </div>
+                          </div> */}
+                          <PopUpForm />
                         </div>
                       </div>
                     </div>
@@ -87,7 +108,7 @@ const HeroSection = () => {
             ))}
           </Swiper>
         </div>
-        <div className="slider-paginations slide-dots"></div>
+        {/* <div className="slider-paginations slide-dots"></div> */}
       </div>
     </section>
   );

@@ -20,9 +20,9 @@ const HomeMain = () => {
       <CtaSection />
       <AboutSection />
       <ProjectSection />
-      <VideoSection />
+      {/* <VideoSection /> */}
       <TestimonialSection testimonial_space="" />
-      <BrandSection brand_space="" />
+      {/* <BrandSection brand_space="" /> */}
       <TrustSection />
       {/* <BlogSection /> */}
       <QualitySection />

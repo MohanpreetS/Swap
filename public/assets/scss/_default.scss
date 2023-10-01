@@ -3,6 +3,11 @@
 @use "variables" as *;
 @use "mixins" as *;
 
+
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   color: $body-color;
   font-size: $body-fz;
@@ -271,7 +276,7 @@ label {
 
   &.theme-btn-small {
     font-size: 12px;
-    padding: 0px 30px;
+    padding: 0px 25px;
     height: 50px;
     line-height: 50px;
   }
@@ -291,6 +296,14 @@ label {
 
 .btn-square {
   border-radius: 0 !important;
+}
+
+//About us Link
+
+.trail-color {
+  &:hover {
+    color: $theme-color,
+  }
 }
 
 /* Bg Color */

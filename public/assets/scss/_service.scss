@@ -355,6 +355,7 @@ br {
     }
 }
 
+
 .popup-form {
     max-width: 800px;
 
@@ -556,6 +557,7 @@ br {
 
     & .develop-content {
         padding-right: 20px;
+        margin-bottom: 25px;
 
         @include mq(xs) {
             padding-right: 0px;
@@ -564,6 +566,7 @@ br {
         & p {
             font-size: 16px;
             line-height: 36px;
+            margin-top: -20px;
         }
     }
 }

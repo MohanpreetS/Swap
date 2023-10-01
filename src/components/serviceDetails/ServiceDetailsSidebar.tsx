@@ -7,11 +7,15 @@ const ServiceDetailsSidebar = () => {
             <div className="widget_categories grey-bg">
                 <h4 className="bs-widget-title pl-20">Categories</h4>
                 <ul>
-                    <li><Link href="/service-details">Web Developement <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details">Graphic Design <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details">SEO & Content Writting <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details">Digital Marketing <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="/service-details#web-dev">Web Developement <i className="far fa-long-arrow-right"></i></Link></li>
                     <li><Link href="/service-details">App Development <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="/service-details">Search Engine Optimization <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="/service-details">Digital Marketing <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="/service-details">ERP Solutions <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="/service-details">ERP Solutions <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="/service-details">CRM Solutions Solutions <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="/service-details">Cyber Security <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="/service-details">IT Service Management <i className="far fa-long-arrow-right"></i></Link></li>
                 </ul>
             </div>
             <div className="widget-btn mt-30">

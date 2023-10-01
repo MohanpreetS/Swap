@@ -23,42 +23,44 @@ const HeaderOne = () => {
           <div className="container-fluid">
             <div className="header-space">
               <div className="row align-items-center">
-                <div className="col-xl-2 col-6">
+                <div className="col-xl-2 col-5">
                   <div className="header-logo">
                     <Link href="/"><Image src={logo} style={{ width: "100%", height: "auto" }} alt="header logo" /></Link>
                   </div>
                 </div>
-                <div className="col-xl-7 col-6">
+                <div className="col-xl-7 d-xl-block d-none">
                   <div className="main-menu d-xl-block d-none">
                     <nav id="mobile-menu">
                       <Menus />
                     </nav>
                   </div>
-                  <div className="side-menu-icon d-xl-none text-end">
-                    {/* <PopUpForm isSmall={true} /> */}
-                    {/* <button type="button" className="search-btn nav-search search-trigger" onClick={toggleSearchMenu}>
-                      <i className="fas fa-search"></i>
-                    </button> */}
+                </div>
+                <div className="d-xl-none col-7 d-flex justify-content-end">
+                  <div className="side-menu-icon d-xl-none text-end d-flex">
+                    <div className="mr-10">
+                      <PopUpForm isSmall={true} />
+                    </div>
                     <button type="button" className="side-toggle" onClick={toggleSideMenu}>
                       <i className="far fa-bars"></i>
                     </button>
                   </div>
                 </div>
+                {/* <div className="col-xl-7 col-6">
+                  <div className="main-menu d-xl-block d-none">
+                    <nav id="mobile-menu">
+                      <Menus />
+                    </nav>
+                  </div>
+                  <div className="side-menu-icon d-xl-none text-end d-flex">
+                    <PopUpForm isSmall={true} />
+                    <button type="button" className="side-toggle" onClick={toggleSideMenu}>
+                      <i className="far fa-bars"></i>
+                    </button>
+                  </div>
+                </div> */}
                 <div className="col-xl-3 d-none d-xl-block">
                   <div className="header-right text-end">
-                    {/* <div className="header-social">
-                      <Link href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></Link>
-                      <Link href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></Link>
-                      <Link href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><i className="fab fa-pinterest-p"></i></Link>
-                      <Link href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></Link>
-                    </div> */}
-                    {/* <div className="header-search">
-                      <button type="button" className="search-btn nav-search search-trigger" onClick={toggleSearchMenu}><i className="fas fa-search"></i></button>
-                    </div> */}
                     <PopUpForm />
-                    {/* <div className="header-btn">
-                      <Link href="/about" className="theme-btn theme-btn-small">Free Estimate</Link>
-                    </div> */}
                   </div>
                 </div>
               </div>

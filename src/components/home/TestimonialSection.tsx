@@ -17,7 +17,7 @@ interface classType {
 
 const TestimonialSection = ({ testimonial_space }: classType) => {
     return (
-        <section className={`${testimonial_space ? testimonial_space : 'testimonial-area pt-115 pb-85'}`}>
+        <section className={`${testimonial_space ? testimonial_space : 'testimonial-area pt-115 pb-70'}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -59,9 +59,9 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                                         <p>I was very impresed by the kimox service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
                                     </div>
                                     <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
+                                        {/* <div className="ktestimonial-author-img">
                                             <Image src={testimonial1} style={{ width: "100%", height: "auto" }} alt="client-img" />
-                                        </div>
+                                        </div> */}
                                         <div className="ktestimonial-author-text">
                                             <h5 className="uppercase">Jessica Brown</h5>
                                             <span className="uppercase">Customer</span>
@@ -75,9 +75,9 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                                         <p>Reliable accessible UI components: :focus styles, content sliders, dark mode, date pickers, navigation, modals, radio buttons Neque porro est qui.</p>
                                     </div>
                                     <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
+                                        {/* <div className="ktestimonial-author-img">
                                             <Image src={testimonial2} style={{ width: "100%", height: "auto" }} alt="client-img" />
-                                        </div>
+                                        </div> */}
                                         <div className="ktestimonial-author-text">
                                             <h5 className="uppercase">Mike Hardson</h5>
                                             <span className="uppercase">Customer</span>
@@ -91,9 +91,9 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                                         <p>Useful CSS tools for animations, border-radius, CSS shadows, cubic-bezier curves, easing gradients, filters, placeholders, CSS Grid.</p>
                                     </div>
                                     <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
+                                        {/* <div className="ktestimonial-author-img">
                                             <Image src={testimonial3} style={{ width: "100%", height: "auto" }} alt="client-img" />
-                                        </div>
+                                        </div> */}
                                         <div className="ktestimonial-author-text">
                                             <h5 className="uppercase">Sarah Albert</h5>
                                             <span className="uppercase">Customer</span>
@@ -107,9 +107,6 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                                         <p>I was very impresed by the kimox service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
                                     </div>
                                     <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
-                                            <Image src={testimonial4} style={{ width: "100%", height: "auto" }} alt="client-img" />
-                                        </div>
                                         <div className="ktestimonial-author-text">
                                             <h5 className="uppercase">Melinda Brown</h5>
                                             <span className="uppercase">Customer</span>
@@ -123,9 +120,7 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                                         <p>Core Web Vitals, CrUX, Lighthouse, performance budgets, CSS & JavaScript performance, assets optimizations, build optimizations.</p>
                                     </div>
                                     <div className="ktestimonial-author">
-                                        <div className="ktestimonial-author-img">
-                                            <Image src={testimonial5} style={{ width: "100%", height: "auto" }} alt="client-img" />
-                                        </div>
+
                                         <div className="ktestimonial-author-text">
                                             <h5 className="uppercase">Andrew Tye</h5>
                                             <span className="uppercase">Customer</span>

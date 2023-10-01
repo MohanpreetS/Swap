@@ -12,11 +12,11 @@ const AboutMain = () => {
         <>
             <Breadcrumb title='About Us' subTitle='About Us' />
             <MissionSection />
-            <TestimonialSection testimonial_space="testimonial-area pt-85 pb-85" />
-            <FunFactSection fact_space="fact-area pb-85" />
+            <TestimonialSection testimonial_space="testimonial-area pt-85 pb-50" />
+            {/* <FunFactSection fact_space="fact-area pb-85" /> */}
             <AboutWhyWeSection />
-            <AboutTeamSection />
-            <BrandSection brand_space="brand-area2 bg-grey pt-100 pb-100" />
+            {/* <AboutTeamSection /> */}
+            {/* <BrandSection brand_space="brand-area2 bg-grey pt-100 pb-100" /> */}
         </>
     );
 };

@@ -5,8 +5,8 @@ import React, { useRef, useState } from 'react'
 import Modal from 'react-modal'
 
 
-const PopUpForm = ({ isSmall = false }) => {
-   const buttonClass = isSmall ? "theme-btn theme-btn-small border-btn" : "theme-btn border-btn";
+const PopUpForm = ({ btnClass = "theme-btn border-btn", label = "Request a Quote" }) => {
+   const buttonClass = btnClass;
    const [isOpen, setIsOpen] = useState(false)
    const [name, setName] = useState('');
    const [email, setEmail] = useState('');
@@ -60,7 +60,7 @@ const PopUpForm = ({ isSmall = false }) => {
 
    return (
       <div>
-         <button className={buttonClass} onClick={() => setIsOpen(true)}>Request a Quote</button>
+         <button className={buttonClass} onClick={() => setIsOpen(true)}>{label}</button>
          {/* <Modal isOpen={isOpen} onRequestClose={() => setIsOpen(false)} style={customStyles}> */}
          <Modal isOpen={isOpen} ariaHideApp={false} onRequestClose={() => setIsOpen(false)} style={{
             overlay: {

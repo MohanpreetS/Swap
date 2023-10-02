@@ -5,7 +5,7 @@ import quality2 from "../../../public/assets/img/trust/cta-img.jpg";
 
 const QualitySection = () => {
     return (
-        <section className="quality-area pt-120 pb-90 fix">
+        <section className="quality-area pt-120 pb-90 fix d-none d-lg-block">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-8">

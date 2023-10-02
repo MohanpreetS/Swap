@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import PopUpForm from '../contact/PopUpForm';
 
 const CtaSection = () => {
     return (
@@ -19,7 +20,8 @@ const CtaSection = () => {
                         <p>Stay up-to-date with the latest technological advancements.</p>
                     </div>
                     <div className="cta-btn text-lg-end text-start mt-10">
-                        <Link href="/service" className="theme-btn black-btn">Discover more</Link>
+                        {/* <Link href="/service" className="theme-btn black-btn">Discover more</Link> */}
+                        <PopUpForm btnClass="theme-btn black-btn" label='Contact Us' />
                     </div>
                 </div>
             </div>

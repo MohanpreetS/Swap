@@ -11,23 +11,6 @@ const AboutSection = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="kabout-img mb-50 mr-70" data-aos="zoom-out-up">
-                            <div className="kabout-img-shape"></div>
-                            <Image src={about1} style={{ width: "100%", height: "auto" }} alt="about-img" />
-                            <div className="kabout-img-small">
-                                <Image src={about2} style={{ width: "100%", height: "auto" }} alt="about-img" />
-                                <div className="kabout-img-small-icon play_btn">
-                                    <span>
-                                        <Image src={aboutIcon} style={{ width: "auto", height: "auto" }} alt="about-icon" />
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="kabout-btn">
-                            <Link href="/service" className="theme-btn border-btn">Discover more</Link>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
                         <div className="kabout mb-50" data-aos="zoom-out-down">
                             <div className="section-title-wrapper mb-45">
                                 <h5 className="section-subtitle mb-20">get to know us</h5>
@@ -57,6 +40,24 @@ const AboutSection = () => {
 
                         </div>
                     </div>
+                    <div className="col-lg-6">
+                        <div className="kabout-img mb-50 mr-70" data-aos="zoom-out-up">
+                            {/* <div className="kabout-img-shape"></div> */}
+                            <Image src={about1} style={{ width: "100%", height: "auto" }} alt="about-img" />
+                            {/* <div className="kabout-img-small">
+                                <Image src={about2} style={{ width: "100%", height: "auto" }} alt="about-img" />
+                                <div className="kabout-img-small-icon play_btn">
+                                    <span>
+                                        <Image src={aboutIcon} style={{ width: "auto", height: "auto" }} alt="about-icon" />
+                                    </span>
+                                </div>
+                            </div> */}
+                        </div>
+                        <div className="kabout-btn mb-20 text-center">
+                            <Link href="/service-details" className="theme-btn border-btn">Discover more</Link>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

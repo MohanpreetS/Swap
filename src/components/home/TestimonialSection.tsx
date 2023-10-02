@@ -17,7 +17,7 @@ interface classType {
 
 const TestimonialSection = ({ testimonial_space }: classType) => {
     return (
-        <section className={`${testimonial_space ? testimonial_space : 'testimonial-area pt-115 pb-70'}`}>
+        <section className={`${testimonial_space ? testimonial_space : 'testimonial-area pt-80 pb-70'}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -56,15 +56,15 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slides">
                                     <div className="ktestimonial-text">
-                                        <p>I was very impresed by the kimox service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
+                                        <p>Exceptional work! Their attention to detail and user-centric approach resulted in a stunning website that perfectly captures our brand image. </p>
                                     </div>
                                     <div className="ktestimonial-author">
                                         {/* <div className="ktestimonial-author-img">
                                             <Image src={testimonial1} style={{ width: "100%", height: "auto" }} alt="client-img" />
                                         </div> */}
                                         <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Jessica Brown</h5>
-                                            <span className="uppercase">Customer</span>
+                                            <h5 className="uppercase">Nirmaljot</h5>
+                                            <span className="uppercase">Mozart Logistics</span>
                                         </div>
                                     </div>
                                 </div>
@@ -72,15 +72,15 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slides">
                                     <div className="ktestimonial-text">
-                                        <p>Reliable accessible UI components: :focus styles, content sliders, dark mode, date pickers, navigation, modals, radio buttons Neque porro est qui.</p>
+                                        <p> The site not only looks fantastic but also performs flawlessly. Their expertise and commitment truly set them apart. Thrilled with the results.</p>
                                     </div>
                                     <div className="ktestimonial-author">
                                         {/* <div className="ktestimonial-author-img">
                                             <Image src={testimonial2} style={{ width: "100%", height: "auto" }} alt="client-img" />
                                         </div> */}
                                         <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Mike Hardson</h5>
-                                            <span className="uppercase">Customer</span>
+                                            <h5 className="uppercase">Simran</h5>
+                                            <span className="uppercase">Casa Framing</span>
                                         </div>
                                     </div>
                                 </div>
@@ -88,15 +88,15 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slides">
                                     <div className="ktestimonial-text">
-                                        <p>Useful CSS tools for animations, border-radius, CSS shadows, cubic-bezier curves, easing gradients, filters, placeholders, CSS Grid.</p>
+                                        <p>Top-notch website! The website they delivered is sleek, functional, and truly represents our brand. Couldn't be happier with their services!</p>
                                     </div>
                                     <div className="ktestimonial-author">
                                         {/* <div className="ktestimonial-author-img">
                                             <Image src={testimonial3} style={{ width: "100%", height: "auto" }} alt="client-img" />
                                         </div> */}
                                         <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Sarah Albert</h5>
-                                            <span className="uppercase">Customer</span>
+                                            <h5 className="uppercase">Ajay</h5>
+                                            <span className="uppercase">Bison Oilfield Equipments</span>
                                         </div>
                                     </div>
                                 </div>
@@ -104,12 +104,12 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slides">
                                     <div className="ktestimonial-text">
-                                        <p>I was very impresed by the kimox service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum.</p>
+                                        <p>Swap Solutions elevated our online presence with their stellar work. From concept to execution, their team's expertise shone through.</p>
                                     </div>
                                     <div className="ktestimonial-author">
                                         <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Melinda Brown</h5>
-                                            <span className="uppercase">Customer</span>
+                                            <h5 className="uppercase">Amarjit</h5>
+                                            <span className="uppercase">Bk International</span>
                                         </div>
                                     </div>
                                 </div>
@@ -117,13 +117,13 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slides">
                                     <div className="ktestimonial-text">
-                                        <p>Core Web Vitals, CrUX, Lighthouse, performance budgets, CSS & JavaScript performance, assets optimizations, build optimizations.</p>
+                                        <p>Swap Solutions brings visions to life. Their web development expertise is exceptional, delivering optimized and visually stunning products.</p>
                                     </div>
                                     <div className="ktestimonial-author">
 
                                         <div className="ktestimonial-author-text">
-                                            <h5 className="uppercase">Andrew Tye</h5>
-                                            <span className="uppercase">Customer</span>
+                                            <h5 className="uppercase">Bhulinder</h5>
+                                            <span className="uppercase">Rodhos</span>
                                         </div>
                                     </div>
                                 </div>

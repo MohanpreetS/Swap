@@ -9,23 +9,28 @@ footer {
     background-size: cover;
     z-index: 1;
     overflow: hidden;
+
     & .common-shape-wrapper {
         background: #2b2d30;
         z-index: -1;
+
         & .common-shape-inner {
             background: $heading-color;
         }
     }
 }
+
 .widget-title {
     font-size: 20px;
     font-weight: 900;
     color: $white-color;
     margin-top: 12px;
 }
+
 .footer-logo img {
     max-width: 170px;
 }
+
 .widget {
     & p {
         font-size: 15px;
@@ -33,13 +38,16 @@ footer {
         color: #a0a2a6;
         line-height: 2;
     }
+
     & ul {
         & li {
             list-style: none;
             margin-bottom: 5px;
+
             &:last-child {
                 margin-bottom: 0px;
             }
+
             a {
                 font-size: 15px;
                 font-weight: 500;
@@ -47,6 +55,7 @@ footer {
                 line-height: 2;
                 display: inline-block;
                 position: relative;
+
                 &:before {
                     position: absolute;
                     content: "";
@@ -59,8 +68,10 @@ footer {
                     z-index: -1;
                     @include transition(0.3s);
                 }
+
                 &:hover {
                     color: $white-color;
+
                     &:before {
                         width: 100%;
                         left: 0px;
@@ -71,35 +82,43 @@ footer {
         }
     }
 }
+
 .footer-social {
     & a {
         font-size: 18px;
         color: $white-color;
         display: inline-block;
         margin-right: 35px;
+
         &:last-child {
             margin-right: 0px;
         }
+
         &:hover {
             color: $theme-color;
         }
     }
 }
+
 .widget-contact li {
     line-height: 26px;
     font-size: 15px;
     color: #a0a2a6;
+
     & img {
         margin-right: 8px;
         width: 18px;
     }
+
     & a {
         color: $white-color;
         display: block;
     }
 }
+
 .widget-newsletter {
     position: relative;
+
     & input {
         height: 60px;
         width: 100%;
@@ -110,6 +129,7 @@ footer {
         outline: none;
         padding: 0px 90px 0px 20px;
     }
+
     & button {
         height: 50px;
         border: none;
@@ -125,11 +145,13 @@ footer {
         font-weight: 700;
         text-transform: uppercase;
         right: 5px;
+
         &:hover {
             background: $heading-color;
             color: $white-color;
         }
-        @include mq(lg){
+
+        @include mq(lg) {
             position: inherit;
             display: block;
             margin-top: 10px;
@@ -141,6 +163,7 @@ footer {
 .copyright-area {
     position: relative;
     z-index: 1;
+
     &:before {
         background: #1a1c1e;
         height: 100%;
@@ -150,42 +173,52 @@ footer {
         z-index: -1;
         top: 0px;
         left: 0px;
-        @include mq(xs){
-            width: 100%; 
+
+        @include mq(xs) {
+            width: 100%;
         }
     }
+
     & span {
         color: #a0a2a6;
         font-size: 15px;
         font-weight: 400;
         display: block;
         padding: 15px 0px;
-        @include mq(xs){
+
+        @include mq(xs) {
             padding-bottom: 0px;
         }
     }
+
     & ul {
         & li {
             padding: 15px 0px;
             list-style: none;
+
             @include mq(xs) {
                 padding-top: 5px;
             }
+
             & a {
                 color: #a0a2a6;
                 font-size: 15px;
                 font-weight: 400;
                 margin-right: 35px;
                 position: relative;
+
                 &:last-child {
                     margin-right: 60px;
-                    @include mq(xs){
-                        margin-right: 0px; 
+
+                    @include mq(xs) {
+                        margin-right: 0px;
                     }
+
                     &:after {
                         display: none;
                     }
                 }
+
                 &:after {
                     position: absolute;
                     content: "/";
@@ -195,6 +228,7 @@ footer {
                     right: -22px;
                     top: -3px;
                 }
+
                 &:hover {
                     color: $white-color;
                 }
@@ -202,20 +236,24 @@ footer {
         }
     }
 }
+
 .bs-widget-title.pl-15 {
-    @include mq(lg){
-        padding-left: 0px; 
+    @include mq(lg) {
+        padding-left: 0px;
     }
 }
+
 .copyright-bg {
     background: #1a1c1e;
     padding: 28px 0px;
-    @include mq(xs){
-        padding: 12px 0px; 
+
+    @include mq(xs) {
+        padding: 12px 0px;
     }
 }
+
 .copyright {
-    @include mq(xs){
+    @include mq(xs) {
         text-align: center;
-    } 
+    }
 }

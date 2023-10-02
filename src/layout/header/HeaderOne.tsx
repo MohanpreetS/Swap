@@ -38,7 +38,7 @@ const HeaderOne = () => {
                 <div className="d-xl-none col-7 d-flex justify-content-end">
                   <div className="side-menu-icon d-xl-none text-end d-flex">
                     <div className="mr-10">
-                      <PopUpForm isSmall={true} />
+                      <PopUpForm btnClass="theme-btn theme-btn-small border-btn" />
                     </div>
                     <button type="button" className="side-toggle" onClick={toggleSideMenu}>
                       <i className="far fa-bars"></i>

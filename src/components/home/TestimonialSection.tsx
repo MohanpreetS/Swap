@@ -88,7 +88,7 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slides">
                                     <div className="ktestimonial-text">
-                                        <p>Top-notch website! The website they delivered is sleek, functional, and truly represents our brand. Couldn't be happier with their services!</p>
+                                        <p>Top-notch website! The website they delivered is sleek, functional, and truly represents our brand. {`Couldn't`} be happier with their services!</p>
                                     </div>
                                     <div className="ktestimonial-author">
                                         {/* <div className="ktestimonial-author-img">
@@ -104,7 +104,7 @@ const TestimonialSection = ({ testimonial_space }: classType) => {
                             <SwiperSlide>
                                 <div className="ktestimonial mb-30 swiper-slides">
                                     <div className="ktestimonial-text">
-                                        <p>Swap Solutions elevated our online presence with their stellar work. From concept to execution, their team's expertise shone through.</p>
+                                        <p>Swap Solutions elevated our online presence with their stellar work. From concept to execution, their {`team's`} expertise shone through.</p>
                                     </div>
                                     <div className="ktestimonial-author">
                                         <div className="ktestimonial-author-text">

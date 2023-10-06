@@ -95,6 +95,7 @@ const PopUpForm = ({ btnClass = "theme-btn border-btn", label = "Request a Quote
                               placeholder="Your Name"
                               value={name}
                               onChange={e => setName(e.target.value)}
+                              required
                            />
                         </div>
                         <div className="col-12 d-flex justify-content-center">
@@ -102,6 +103,7 @@ const PopUpForm = ({ btnClass = "theme-btn border-btn", label = "Request a Quote
                               placeholder="Email Adress"
                               value={email}
                               onChange={e => setEmail(e.target.value)}
+                              required
                            />
                         </div>
                         <div className="col-12 d-flex justify-content-center">
@@ -109,6 +111,7 @@ const PopUpForm = ({ btnClass = "theme-btn border-btn", label = "Request a Quote
                               placeholder="Phone"
                               value={phone}
                               onChange={e => setPhone(e.target.value)}
+                              required
                            />
                         </div>
 

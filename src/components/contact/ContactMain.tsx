@@ -7,9 +7,9 @@ import CtaSectionTwo from '../homeTwo/CtaSectionTwo';
 const ContactMain = () => {
     return (
         <>
-            <Breadcrumb title='Contact' subTitle='Contact' />
+            <Breadcrumb title='Contact Us' subTitle='Contact' />
             <ContactSection />
-            <CtaSectionTwo />
+            {/* <CtaSectionTwo /> */}
             <MapSection />
         </>
     );

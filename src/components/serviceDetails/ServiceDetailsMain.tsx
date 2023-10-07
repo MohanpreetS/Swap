@@ -5,7 +5,7 @@ import ServiceDetailsContent from './ServiceDetailsContent';
 const ServiceDetailsMain = () => {
     return (
         <>
-            <Breadcrumb title='Service Details' subTitle='Service Details' />
+            <Breadcrumb title='Services' subTitle='Services' />
             <ServiceDetailsContent />
         </>
     );

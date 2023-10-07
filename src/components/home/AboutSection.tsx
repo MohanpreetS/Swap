@@ -22,12 +22,12 @@ const AboutSection = () => {
                                 <div className="col-sm-6">
                                     <div className="kabout-service mb-30">
                                         <h4 className="kabout-service-title">The Best Services</h4>
-                                        <p>Stay up-to-date with the latest technological advancements.</p>
+                                        <p>Unlock the full potential of your business.</p>
                                     </div>
                                 </div>
                                 <div className="col-sm-6">
                                     <div className="kabout-service mb-30">
-                                        <h4 className="kabout-service-title">Expert Designers</h4>
+                                        <h4 className="kabout-service-title">Expert Developers</h4>
                                         <p>Stay up-to-date with the latest technological advancements.</p>
                                     </div>
                                 </div>

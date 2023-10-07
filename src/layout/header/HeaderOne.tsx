@@ -37,9 +37,9 @@ const HeaderOne = () => {
                 </div>
                 <div className="d-xl-none col-7 d-flex justify-content-end">
                   <div className="side-menu-icon d-xl-none text-end d-flex">
-                    <div className="mr-10">
+                    {/* <div className="mr-10">
                       <PopUpForm btnClass="theme-btn theme-btn-small border-btn" />
-                    </div>
+                    </div> */}
                     <button type="button" className="side-toggle" onClick={toggleSideMenu}>
                       <i className="far fa-bars"></i>
                     </button>

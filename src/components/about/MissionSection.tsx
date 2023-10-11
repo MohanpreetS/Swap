@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from "next/image";
-import mission from "../../../public/assets/img/about/about-img-6.jpg";
+import mission from "../../../public/assets/img/home/aboutSMALL.jpg";
 
 const MissionSection = () => {
     return (

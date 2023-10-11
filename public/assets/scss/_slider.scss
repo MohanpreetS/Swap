@@ -22,6 +22,7 @@
 }
 
 .slide-bg {
+    filter: grayscale(100%);
     position: absolute;
     left: 0;
     top: 0;
@@ -32,8 +33,14 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: rgba(200, 100, 0, .5);
+    background-blend-mode: multiply;
     transform: scale(1);
     @include transition(8s);
+
+    // &:hover {
+    //     filter: grayscale(0%);
+    // }
 }
 
 .swiper-slide-active .slide-bg {

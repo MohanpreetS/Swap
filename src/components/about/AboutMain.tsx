@@ -10,7 +10,7 @@ import BrandSection from '../home/BrandSection';
 const AboutMain = () => {
     return (
         <>
-            <Breadcrumb title='About Us' subTitle='About Us' />
+            <Breadcrumb title='About Us' subTitle='About Us' page='about' />
             <MissionSection />
             <TestimonialSection testimonial_space="testimonial-area pt-85 pb-50" />
             {/* <FunFactSection fact_space="fact-area pb-85" /> */}

@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from "next/image";
-import about1 from "../../../public/assets/img/about/about-img-1.jpg";
+// import about1 from "../../../public/assets/img/about/about-img-1.jpg";
+import about1 from "../../../public/assets/img/home/homeABOUT.jpg";
 import about2 from "../../../public/assets/img/about/about-img-2.jpg";
 import aboutIcon from "../../../public/assets/img/icon/about-icon.png";
 
@@ -41,7 +42,7 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="kabout-img mb-50 mr-70" data-aos="zoom-out-up">
+                        <div className="kabout-img mb-50 mr-70 text-center" data-aos="zoom-out-up">
                             {/* <div className="kabout-img-shape"></div> */}
                             <Image src={about1} style={{ width: "100%", height: "auto" }} alt="about-img" />
                             {/* <div className="kabout-img-small">
@@ -53,7 +54,7 @@ const AboutSection = () => {
                                 </div>
                             </div> */}
                         </div>
-                        <div className="kabout-btn mb-20 text-center">
+                        <div className="kabout-btn mb-20">
                             <Link href="/service-details" className="theme-btn border-btn">Discover more</Link>
                         </div>
                     </div>

@@ -384,17 +384,17 @@ br {
 
         @include mq(lg) {
             padding: 20px;
-            font-size: 14px;
+            font-size: 12px;
         }
 
         @include mq(md) {
-            padding: 25px;
-            font-size: 14px;
+            padding: 15px;
+            font-size: 10px;
         }
 
         @include mq(xs) {
-            padding: 25px;
-            font-size: 14px;
+            padding: 10px;
+            font-size: 8px;
         }
 
         &:focus {

@@ -78,7 +78,7 @@ const PopUpForm = ({ btnClass = "theme-btn border-btn", label = "Request a Quote
                right: 'auto',
                bottom: 'auto',
                maxWidth: '700px',
-               // marginRight: '-50%',
+               marginRight: '-40%',
                transform: 'translate(-50%, -50%)',
                borderRadius: '20px'
             }

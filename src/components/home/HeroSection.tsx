@@ -8,9 +8,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle';
 import Link from 'next/link';
 
-import slideBg1 from "../../../public/assets/img/slider/slider-1.jpg";
-import slideBg2 from "../../../public/assets/img/slider/slider-2.jpg";
-import slideBg3 from "../../../public/assets/img/slider/slider-3.jpg";
+// import slideBg1 from "../../../public/assets/img/slider/slider-1.jpg";
+import slideBg1 from "../../../public/assets/img/home/homeWAD.jpg"
+// import slideBg2 from "../../../public/assets/img/slider/slider-2.jpg";
+import slideBg2 from "../../../public/assets/img/home/homeERP.jpg";
+// import slideBg2 from "../../../public/assets/img/home/homeERP2.jpg";
+// import slideBg3 from "../../../public/assets/img/slider/slider-3.jpg";
+import slideBg3 from "../../../public/assets/img/home/homeSEO.jpg";
+import slideBg4 from "../../../public/assets/img/home/homeIT.jpg";
+import slideBg5 from "../../../public/assets/img/home/homeCYB.jpg";
 import shape1 from "../../../public/assets/img/slider/slider-shape-1.png";
 import shape2 from "../../../public/assets/img/slider/slider-shape-2.png";
 import Image from 'next/image';
@@ -26,6 +32,8 @@ const hero_slider: heroType[] = [
     btn: "Request a Quote",
     shapeA: shape1,
     shapeB: shape2,
+    classx: "kslider--title mb-40",
+    classy: "kslider--subtitle mb-25"
   },
   {
     id: 2,
@@ -35,6 +43,8 @@ const hero_slider: heroType[] = [
     btn: "Request a Quote",
     shapeA: shape1,
     shapeB: shape2,
+    classx: "kslider--title mb-40",
+    classy: "kslider--subtitle mb-25"
   },
   {
     id: 3,
@@ -44,24 +54,30 @@ const hero_slider: heroType[] = [
     btn: "Request a Quote",
     shapeA: shape1,
     shapeB: shape2,
+    classx: "kslider--title mb-40",
+    classy: "kslider--subtitle mb-25"
   },
   {
     id: 4,
-    slideBg: slideBg3,
+    slideBg: slideBg4,
     title: <>IT Service <br />Management</>,
     subTitle: "Welcome to Swap Solutions",
     btn: "Request a Quote",
     shapeA: shape1,
     shapeB: shape2,
+    classx: "kslider--title mb-40",
+    classy: "kslider--subtitle mb-25"
   },
   {
     id: 5,
-    slideBg: slideBg3,
+    slideBg: slideBg5,
     title: <>Cybersecurity <br />Risk Assessment</>,
     subTitle: "Welcome to Swap Solutions",
     btn: "Request a Quote",
     shapeA: shape1,
     shapeB: shape2,
+    classx: "kslider--title mb-40",
+    classy: "kslider--subtitle mb-25"
   }
 ]
 
@@ -91,8 +107,8 @@ const HeroSection = () => {
                     <div className="row">
                       <div className="col-lg-12">
                         <div className="kslider z-index">
-                          <h5 className="kslider--subtitle mb-25">{item.subTitle}</h5>
-                          <h2 className="kslider--title mb-40">{item.title}</h2>
+                          <h5 className={item.classy}>{item.subTitle}</h5>
+                          <h2 className={item.classx}>{item.title}</h2>
                           {/* <div className="kslider--btn">
                             <Link href="/service" className="theme-btn">{item.btn}</Link>
                           </div> */}

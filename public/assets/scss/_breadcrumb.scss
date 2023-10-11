@@ -3,27 +3,49 @@
 @use "mixins" as *;
 
 /* 17. Breadcrumb */
-.breadcrumb-spacing{
+.breadcrumb-spacing {
     padding-top: 260px;
     padding-bottom: 155px;
     background-size: cover;
-     @include mq(xs){
-        padding-top: 240px;  
+
+    @include mq(xs) {
+        padding-top: 240px;
     }
 }
+
+.breadcrumb-spacing2 {
+    padding-top: 260px;
+    padding-bottom: 155px;
+    background-size: cover;
+    background-position: center center;
+
+    @include mq(xs) {
+        padding-top: 240px;
+    }
+}
+
 .page-title {
-	color: $white-color;
-	font-size: 50px;
-	font-weight: 700;
+    color: $white-color;
+    font-size: 50px;
+    font-weight: 700;
     font-family: $body-fonts;
-	line-height: 1;
+    line-height: 1;
     text-transform: uppercase;
 }
+
+.page-title-area {
+
+    -webkit-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
 .breadcrumb-menu {
-	& li {
+    & li {
         display: inline-block;
         padding: 0 15px;
         position: relative;
+
         &:not(:last-child)::after {
             content: "";
             display: inline-block;
@@ -37,6 +59,7 @@
             right: -3px;
             top: 6px;
         }
+
         & span {
             color: $white-color;
             @include transition(0.3s);

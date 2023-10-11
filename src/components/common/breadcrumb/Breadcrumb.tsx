@@ -1,16 +1,27 @@
 import React from 'react';
 import Link from 'next/link';
-import breadcrumbBg from "../../../../public/assets/img/bg/breadcrumb-bg.jpg";
+// import breadcrumbBg from "../../../../public/assets/img/bg/breadcrumb-bg.jpg";
+import breadcrumbBgA from "../../../../public/assets/img/home/homeIT.jpg";
+import breadcrumbBgS from "../../../../public/assets/img/home/homeWAD.jpg";
+import breadcrumbBgC from "../../../../public/assets/img/home/contactTOP.jpg";
 
 interface PropsData {
    title: string | undefined,
-   subTitle: string | undefined
+   subTitle: string | undefined,
+   page: string,
 }
 
-const Breadcrumb = ({ title, subTitle }: PropsData) => {
+const Breadcrumb = ({ title, subTitle, page = 'about' }: PropsData) => {
+   var imgPath = breadcrumbBgA.src;
+   if (page === 'contact') {
+      imgPath = breadcrumbBgC.src;
+   } else if (page === "services") {
+      imgPath = breadcrumbBgS.src;
+   }
+
    return (
       <>
-         <section className="page-title-area breadcrumb-spacing" style={{ backgroundImage: `url(${breadcrumbBg.src})` }}>
+         <section className="page-title-area breadcrumb-spacing" style={{ backgroundImage: `url(${imgPath})` }}>
             <div className="container">
                <div className="row justify-content-center">
                   <div className="col-xxl-9">

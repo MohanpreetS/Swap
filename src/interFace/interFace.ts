@@ -16,36 +16,36 @@ export interface idType {
 }
 
 // project type
-export interface projectType{
-  id?:number;
+export interface projectType {
+  id?: number;
   img?: StaticImageData;
-  title?:string;
-  tag?:string;
-  graphic?:boolean;
-  design?:boolean;
-  development?:boolean;
-  networking?:boolean;
+  title?: string;
+  tag?: string;
+  graphic?: boolean;
+  design?: boolean;
+  development?: boolean;
+  networking?: boolean;
 }
 
 // event type
-export interface blogType{
-  id?:number;
+export interface blogType {
+  id?: number;
   img?: StaticImageData;
-  date?:string;
-  title?:string;
-  user?:string;
-  comments?:any;
-  button?:string;
+  date?: string;
+  title?: string;
+  user?: string;
+  comments?: any;
+  button?: string;
 }
 
 // brand type
-export interface brandType{
-  id?:number;
+export interface brandType {
+  id?: number;
   img?: StaticImageData;
-  delay?:string;
+  delay?: string;
 }
 
-type ISocial =  {
+type ISocial = {
   id: number;
   icon: string;
   url: string;
@@ -53,22 +53,24 @@ type ISocial =  {
 
 // team type
 export interface teamType {
-  id?:number;
+  id?: number;
   img?: StaticImageData;
-  title?:string;
-  designation?:string;
-  socialIcons?:ISocial[];
+  title?: string;
+  designation?: string;
+  socialIcons?: ISocial[];
 }
 
 // hero type
 export interface heroType {
-  id?:number;
+  id?: number;
   slideBg: StaticImageData;
-  title?:React.JSX.Element;
-  subTitle?:string;
-  btn?:string;
-  shapeA?:StaticImageData;
-  shapeB?:StaticImageData;
+  title?: React.JSX.Element;
+  subTitle?: string;
+  btn?: string;
+  shapeA?: StaticImageData;
+  shapeB?: StaticImageData;
+  classx: string;
+  classy: string;
 }
 
 // menus type

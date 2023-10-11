@@ -7,14 +7,14 @@ import service2 from "../../../public/assets/img/service/service-img-6.jpg";
 
 const ServiceDetailsContent = () => {
     return (
-        <section className="service-detals pt-120 pb-100 fix">
+        <section className="service-detals pt-60 pb-100 px-3 fix">
             <div className="container">
                 <div className="row">
                     <div className="col-xxl-8 col-xl-8 col-lg-8">
                         <div className="develop-wrapper">
-                            <div className="develop-thumb" id='web-dev'>
+                            {/* <div className="develop-thumb" id='web-dev'>
                                 <Image src={service1} style={{ width: "100%", height: "auto" }} alt="img not found" />
-                            </div>
+                            </div> */}
                             <div className="develop-content" >
                                 <h3 className="service-title">Web Development</h3>
                                 <p>Swap Solutions specializes in providing comprehensive web development services that cater to a diverse range of industries and business needs. Our experienced team combines technical expertise with a deep understanding of user experience to create websites that not only look impressive but also function seamlessly. We take a collaborative approach, working closely with clients to understand their specific requirements and objectives. Our development process is rooted in industry best practices, ensuring compatibility across different devices and browsers, as well as adherence to modern web standards. Whether {`you're`} looking to build a new website from scratch or enhance an existing one, our team has the capabilities to handle projects of all sizes and complexities. Additionally, we offer post-launch support and maintenance packages to ensure your website remains optimized and up-to-date. With Swap <span id='app-dev'></span>Solutions, you can trust that your web development project will be executed with precision, attention to detail, and a focus on delivering a solution that aligns perfectly with your business goals.</p>

@@ -18,7 +18,7 @@ const ServiceDetailsSidebar = () => {
                 </ul>
             </div>
             <div className="widget-btn mt-30">
-                <Link href="/about" className="theme-btn border-btn">get a free estimate</Link>
+                <Link href="/contact" className="theme-btn border-btn">get a free estimate</Link>
             </div>
         </div>
     );

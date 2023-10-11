@@ -9,7 +9,7 @@ const PricingSection = dynamic(() => import('./PricingSection'), {
 const PricingMain = () => {
     return (
         <>
-            <Breadcrumb title='Pricing' subTitle='Pricing' />
+            <Breadcrumb title='Pricing' subTitle='Pricing' page='about' />
             <PricingSection />
             <CtaSectionTwo />
         </>

@@ -5,7 +5,7 @@ import SignUpContent from './SignUpContent';
 const SignUpMain = () => {
     return (
         <>
-            <Breadcrumb title='Sign Up' subTitle='Sign Up' />
+            <Breadcrumb title='Sign Up' subTitle='Sign Up' page='about' />
             <SignUpContent />
         </>
     );

@@ -3,10 +3,10 @@ import Breadcrumb from '../common/breadcrumb/Breadcrumb';
 import { idType } from '@/interFace/interFace';
 import ProjectDetailsContent from './ProjectDetailsContent';
 
-const ProjectDetailsMain = ({id}:idType) => {
+const ProjectDetailsMain = ({ id }: idType) => {
     return (
         <>
-            <Breadcrumb title='Project Details' subTitle='Project Details' />
+            <Breadcrumb title='Project Details' subTitle='Project Details' page='about' />
             <ProjectDetailsContent id={id} />
         </>
     );

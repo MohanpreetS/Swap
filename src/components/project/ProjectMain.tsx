@@ -8,7 +8,7 @@ const ProjectPageSection = dynamic(() => import('./ProjectPageSection'), {
 const ProjectMain = () => {
     return (
         <>
-            <Breadcrumb title='Projects' subTitle='Projects' />
+            <Breadcrumb title='Projects' subTitle='Projects' page='about' />
             <ProjectPageSection />
         </>
     );

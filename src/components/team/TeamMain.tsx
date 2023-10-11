@@ -5,7 +5,7 @@ import TeamContent from './TeamContent';
 const TeamMain = () => {
     return (
         <>
-            <Breadcrumb title='Our Team' subTitle='Our Team' />
+            <Breadcrumb title='Our Team' subTitle='Our Team' page='about' />
             <TeamContent />
         </>
     );

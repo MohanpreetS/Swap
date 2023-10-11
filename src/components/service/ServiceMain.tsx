@@ -9,7 +9,7 @@ import BrandSection from '../home/BrandSection';
 const ServiceMain = () => {
     return (
         <>
-            <Breadcrumb title='Services' subTitle='Services' />
+            <Breadcrumb title='Services' subTitle='Services' page='about' />
             <ServicePageSection />
             <ServiceWhyWe />
             <ServiceSectionFour />

@@ -5,7 +5,7 @@ import BlogContent from './BlogContent';
 const BlogMain = () => {
     return (
         <>
-            <Breadcrumb title='Blog' subTitle='Blog' />
+            <Breadcrumb title='Blog' subTitle='Blog' page='about' />
             <BlogContent />
         </>
     );

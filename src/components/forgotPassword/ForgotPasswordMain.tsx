@@ -6,7 +6,7 @@ import Link from 'next/link';
 const ForgotPasswordMain = () => {
     return (
         <>
-            <Breadcrumb title='Forgot Password' subTitle='Forgot Password' />
+            <Breadcrumb title='Forgot Password' subTitle='Forgot Password' page='about' />
 
             <section className="login__area pt-110 pb-110">
                 <div className="container">

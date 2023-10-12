@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 const ProjectSection = () => {
     return (
-        <section className="project-area bg-grey pt-115 pb-200 fix" id='portfolio' >
+        <section className="project-area bg-grey fix" id='portfolio' >
             <div className="common-shape-wrapper wow slideInRight animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div className="common-shape-inner"></div>
             </div>
@@ -20,7 +20,7 @@ const ProjectSection = () => {
                     <div className="col-md-8">
                         <div className="section-title-wrapper mb-45">
                             <h5 className="section-subtitle mb-20">Our recent work</h5>
-                            <h2 className="section-title">Work showcase</h2>
+                            <h2 className="section-title">Project showcase</h2>
                         </div>
                     </div>
                     <div className="col-md-4">

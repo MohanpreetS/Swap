@@ -96,7 +96,7 @@ const HeroSection = () => {
               delay: 5000,
               disableOnInteraction: true
             }}
-            pagination={{ clickable: true, }}
+            pagination={{ clickable: true }}
 
           >
             {hero_slider && hero_slider.map((item) => (
@@ -109,9 +109,6 @@ const HeroSection = () => {
                         <div className="kslider z-index">
                           <h5 className={item.classy}>{item.subTitle}</h5>
                           <h2 className={item.classx}>{item.title}</h2>
-                          {/* <div className="kslider--btn">
-                            <Link href="/service" className="theme-btn">{item.btn}</Link>
-                          </div> */}
                           <PopUpForm />
                         </div>
                       </div>

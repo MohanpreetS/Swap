@@ -8,7 +8,7 @@ import aboutIcon from "../../../public/assets/img/icon/about-icon.png";
 
 const AboutSection = () => {
     return (
-        <section className="about-area pt-120 pb-70 fix">
+        <section className="about-area pt-100 fix">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
@@ -33,12 +33,6 @@ const AboutSection = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* <ul className="mt-20 mb-55">
-                                <li><i className="fal fa-check"></i> Digital Marketing Strategies.</li>
-                                <li><i className="fal fa-check"></i> E-commerce Solutions.</li>
-                                <li><i className="fal fa-check"></i> Social Media Management.</li>
-                            </ul> */}
-
                         </div>
                     </div>
                     <div className="col-lg-6">

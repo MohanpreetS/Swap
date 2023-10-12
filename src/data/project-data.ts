@@ -17,14 +17,7 @@ import thumb15 from "../../public/assets/img/project/project-img-12.jpg"
 import thumb16 from "../../public/assets/img/project/project-img-13.jpg"
 
 const projects: projectType[] = [
-    {
-        id: 2,
-        img: thumb2,
-        title: "Casa Framing",
-        tag: "Web Design+Dev",
-        design: true,
-        link: "https://casaframing.ca/",
-    },
+
     {
         id: 4,
         img: thumb4,
@@ -48,6 +41,14 @@ const projects: projectType[] = [
         tag: "Web Design+Dev, ERP",
         design: true,
         link: "https://www.bisonoilfield.com/"
+    },
+    {
+        id: 2,
+        img: thumb2,
+        title: "Casa Framing",
+        tag: "Web Design+Dev",
+        design: true,
+        link: "https://casaframing.ca/",
     },
     {
         id: 1,

@@ -9,13 +9,13 @@
     background-size: cover;
 
     @include mq(md) {
-        padding-bottom: 160px;
         padding-top: 115px;
+        padding-bottom: 100px;
     }
 
     @include mq(xs) {
-        padding-top: 115px;
-        padding-bottom: 160px;
+        padding-top: 50px;
+        padding-bottom: 100px;
     }
 }
 
@@ -124,6 +124,11 @@
         color: #a0a2a6;
         line-height: 2;
         font-size: 18px;
+
+        @include mq(xs) {
+            padding-top: 10px;
+        }
+
     }
 }
 

@@ -5,6 +5,18 @@
 /* 07. Project */
 .project-area {
     position: relative;
+    padding-top: 115px;
+    padding-bottom: 200px;
+
+    @include mq(md) {
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+
+    @include mq(xs) {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
 }
 
 .kproject {
@@ -137,13 +149,20 @@
 .project-area {
     & .section-title-wrapper {
         @include mq(xs) {
-            margin-bottom: 25px;
+            margin-bottom: 10px;
         }
+
+        & .section-subtitle {
+            @include mq(xs) {
+                margin-bottom: 0px;
+            }
+        }
+
     }
 
     & .lol {
         @include mq(xs) {
-            margin-bottom: 60px;
+            margin-bottom: 30px;
         }
     }
 }

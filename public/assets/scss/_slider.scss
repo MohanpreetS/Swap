@@ -6,6 +6,10 @@
 .slider-height {
     min-height: 970px;
 
+    @include mq(md) {
+        min-height: 800px;
+    }
+
     @include mq(xs) {
         min-height: 600px;
     }
@@ -51,6 +55,10 @@
 
 .kslider {
     padding-top: 345px;
+
+    @include mq(md) {
+        padding-top: 250px;
+    }
 
     @include mq(xs) {
         padding-top: 200px;

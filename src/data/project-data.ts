@@ -1,10 +1,10 @@
 import { projectType } from "@/interFace/interFace"
-import thumb1 from "../../public/assets/img/project/project-img-1.jpg"
-import thumb2 from "../../public/assets/img/project/project-img-2.jpg"
-import thumb3 from "../../public/assets/img/project/project-img-3.jpg"
-import thumb4 from "../../public/assets/img/project/project-img-4.jpg"
-import thumb5 from "../../public/assets/img/project/project-img-1.jpg"
-import thumb6 from "../../public/assets/img/project/project-img-2.jpg"
+import thumb1 from "../../public/assets/img/project/direct_furniture.png"
+import thumb2 from "../../public/assets/img/project/casa_framing.png"
+import thumb3 from "../../public/assets/img/project/bk_international.png"
+import thumb4 from "../../public/assets/img/project/mozart.png"
+import thumb5 from "../../public/assets/img/project/rodhos.png"
+import thumb6 from "../../public/assets/img/project/bison.png"
 import thumb7 from "../../public/assets/img/project/project-img-3.jpg"
 import thumb8 from "../../public/assets/img/project/project-img-5.jpg"
 import thumb9 from "../../public/assets/img/project/project-img-6.jpg"
@@ -16,119 +16,55 @@ import thumb14 from "../../public/assets/img/project/project-img-11.jpg"
 import thumb15 from "../../public/assets/img/project/project-img-12.jpg"
 import thumb16 from "../../public/assets/img/project/project-img-13.jpg"
 
-const projects:projectType[] = [
+const projects: projectType[] = [
     {
-        id:1,
-        img:thumb1,
-        title: "User Experience Design",
-        tag: "Graphic",
-        graphic: true,
-    },
-    {
-        id:2,
-        img:thumb2,
-        title: "Interactive Web Design",
-        tag: "Web Design",
+        id: 2,
+        img: thumb2,
+        title: "Casa Framing",
+        tag: "Web Design+Dev",
         design: true,
+        link: "https://casaframing.ca/",
     },
     {
-        id:3,
-        img:thumb3,
-        title: "Full-Stack Development",
-        tag: "Web Development",
-        development: true,
-    },
-    {
-        id:4,
-        img:thumb4,
-        title: "Network Security",
-        tag: "Networking",
+        id: 4,
+        img: thumb4,
+        title: "Mozart Logistics",
+        tag: "Web Dev, SEO",
         networking: true,
+        link: "https://mozartlogistics.ca/"
     },
     {
-        id:5,
-        img:thumb5,
-        title: "User Interface Design",
-        tag: "Graphic",
+        id: 5,
+        img: thumb5,
+        title: "Rodhos",
+        tag: "Web Dev, SEO, DM",
         graphic: true,
+        link: "http://rodhos.ca/"
     },
     {
-        id:6,
-        img:thumb6,
-        title: "Minimalist Web Design",
-        tag: "Web Design",
+        id: 6,
+        img: thumb6,
+        title: "Bison Oilfield",
+        tag: "Web Design+Dev, ERP",
         design: true,
+        link: "https://www.bisonoilfield.com/"
     },
     {
-        id:7,
-        img:thumb7,
-        title: "Web Security",
-        tag: "Web Devolopment",
+        id: 1,
+        img: thumb1,
+        title: "Direct Furniture",
+        tag: "Web Dev",
         development: true,
+        link: "https://directfurnituresurrey.ca/"
     },
     {
-        id:8,
-        img:thumb8,
-        title: "Typography in Web Design",
-        tag: "Web Design",
-        design: true,
-    },
-    {
-        id:9,
-        img:thumb9,
-        title: "Campaigns Design",
-        tag: "Graphic",
-        graphic: true,
-    },
-    {
-        id:10,
-        img:thumb10,
-        title: "Web Accessibility",
-        tag: "Web Development",
+        id: 3,
+        img: thumb3,
+        title: "BK International",
+        tag: "Web Dev, ERP, CRM",
         development: true,
+        link: "http://bkinternationalgroup.com/"
     },
-    {
-        id:11,
-        img:thumb11,
-        title: "Routing and Switching",
-        tag: "Networking",
-        networking: true,
-    },
-    {
-        id:12,
-        img:thumb12,
-        title: "Progressive Web Apps",
-        tag: "Web Devolopment",
-        development: true,
-    },
-    {
-        id:13,
-        img:thumb13,
-        title: "Fimlor Experience",
-        tag: "Graphics",
-        graphic: true,
-    },
-    {
-        id:14,
-        img:thumb14,
-        title: "Network Types and Topologies",
-        tag: "Networking",
-        networking: true,
-    },
-    {
-        id:15,
-        img:thumb15,
-        title: "Responsive Web Design",
-        tag: "Web Design",
-        design: true,
-    },
-    {
-        id:16,
-        img:thumb16,
-        title: "Fimlor Experience",
-        tag: "Graphics",
-        graphic: true,
-    }
 ]
 
 export default projects

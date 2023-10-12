@@ -6,9 +6,11 @@
 .project-area {
     position: relative;
 }
+
 .kproject {
     position: relative;
     overflow: hidden;
+
     &-text {
         position: absolute;
         left: 30px;
@@ -21,22 +23,27 @@
         opacity: 0;
         visibility: hidden;
         transition: all 500ms ease;
-        @include mq(xxl){
+
+        @include mq(xxl) {
             padding: 25px;
-            left: 20px;   
+            left: 20px;
         }
-        @include mq(lg){
+
+        @include mq(lg) {
             padding: 20px;
-            left: 20px; 
+            left: 20px;
         }
-        @include mq(xs){
+
+        @include mq(xs) {
             padding: 20px;
-            left: 20px; 
+            left: 20px;
         }
-        @include mq(sm){
+
+        @include mq(sm) {
             padding: 30px;
-            left: 30px; 
+            left: 30px;
         }
+
         & span {
             font-size: 12px;
             font-weight: 700;
@@ -46,26 +53,31 @@
             text-transform: uppercase;
             margin-bottom: 3px;
         }
+
         &-icon {
             margin-left: 35px;
+
             & i {
                 font-size: 18px;
                 color: $white-color;
             }
         }
     }
+
     & img {
-        -webkit-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-        -moz-filter: grayscale(100%);
+        // -webkit-filter: grayscale(100%);
+        // -ms-filter: grayscale(100%);
+        // -moz-filter: grayscale(100%);
         width: 100%;
     }
+
     &:hover {
         & .kproject-text {
             opacity: 1;
             visibility: visible;
             bottom: 20px;
         }
+
         & img {
             -webkit-filter: grayscale(0%);
             -ms-filter: grayscale(0%);
@@ -74,12 +86,14 @@
         }
     }
 }
+
 .swiper-slide-active {
     & .kproject-text {
         opacity: 1;
         visibility: visible;
     }
 }
+
 .kproject-text-title {
     font-size: 18px;
     font-weight: 700;
@@ -88,41 +102,48 @@
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
-.project-area .slide-prev, .project-area .slide-next {
-	position: relative;
-	font-size: 20px;
-	background: $white-color;
-	height: 65px;
-	width: 65px;
-	line-height: 65px;
-	color: $heading-color;;
-	border-radius: 50%;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	z-index: 3;
-	text-align: center;
-	margin: 0px;
-	vertical-align: middle;
-	@include transition(0.3s);
+
+.project-area .slide-prev,
+.project-area .slide-next {
+    position: relative;
+    font-size: 20px;
+    background: $white-color;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    color: $heading-color;
+    ;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 3;
+    text-align: center;
+    margin: 0px;
+    vertical-align: middle;
+    @include transition(0.3s);
     display: inline-block;
+
     &:hover {
         background: $theme-color;
         color: $white-color;
     }
 }
+
 .project-area .slide-next {
     margin-left: 10px;
 }
+
 .project-area {
     & .section-title-wrapper {
-        @include mq(xs){
+        @include mq(xs) {
             margin-bottom: 25px;
         }
     }
+
     & .lol {
-        @include mq(xs){
-            margin-bottom: 60px; 
+        @include mq(xs) {
+            margin-bottom: 60px;
         }
     }
 }
@@ -132,40 +153,51 @@
     left: 20px;
     right: 20px;
     padding: 35px 35px;
-    @include mq(xl){
+
+    @include mq(xl) {
         padding: 25px 25px;
     }
-    @include mq(lg){
+
+    @include mq(lg) {
         padding: 15px 15px;
     }
-    @include mq(md){
+
+    @include mq(md) {
         padding: 20px 20px;
     }
-    @include mq(xs){
+
+    @include mq(xs) {
         padding: 25px 25px;
     }
-    @include mq(sm){
+
+    @include mq(sm) {
         padding: 35px 35px;
     }
+
     & .kproject-text-icon {
         margin-left: auto;
     }
-    
+
 }
+
 .aportfolio-menu {
     #nav-tab {
         display: inline-flex;
         flex-wrap: wrap;
     }
+
     nav {
         display: inline-block;
     }
-    @include mq(md){
-        margin-bottom: 45px; 
+
+    @include mq(md) {
+        margin-bottom: 45px;
     }
-    @include mq(xs){
-        margin-bottom: 45px; 
+
+    @include mq(xs) {
+        margin-bottom: 45px;
     }
+
     & button {
         font-size: 14px;
         color: $body-color;
@@ -180,13 +212,16 @@
         letter-spacing: 1px;
         position: relative;
         @include transition(0.3s);
-        @include mq(lg){
+
+        @include mq(lg) {
             margin-right: 20px;
         }
-        @include mq(xs){
+
+        @include mq(xs) {
             margin-right: 20px;
             margin-bottom: 10px;
         }
+
         &:before {
             position: absolute;
             content: '';
@@ -200,14 +235,18 @@
             visibility: hidden;
             @include transition(0.3s);
         }
+
         &:hover {
             color: $theme-color;
         }
+
         &:last-child {
             margin-right: 0px;
         }
+
         &.active {
             color: $theme-color;
+
             &:before {
                 opacity: 1;
                 visibility: visible;
@@ -218,41 +257,51 @@
 }
 
 .project-big-thumb {
-	margin-bottom: 58px;
+    margin-bottom: 58px;
 }
+
 .p-details-content {
     padding-right: 10px;
-    @include mq(xs){
+
+    @include mq(xs) {
         padding-right: 0px;
     }
-	& h3 {
+
+    & h3 {
         font-size: 36px;
         line-height: 30px;
         font-weight: 700;
         text-transform: uppercase;
         margin-bottom: 25px;
-        @include mq(xs){
+
+        @include mq(xs) {
             font-size: 28px;
         }
     }
-    & p{
+
+    & p {
         font-size: 16px;
         line-height: 36px;
         margin-bottom: 35px;
-        &:last-child{
+
+        &:last-child {
             margin-bottom: 0;
         }
     }
 }
-.sidebar-right{
+
+.sidebar-right {
     background: $grey-color;
     padding: 45px 50px;
-    & .sidebar-single{
+
+    & .sidebar-single {
         margin-bottom: 35px;
-        &:last-child{
+
+        &:last-child {
             margin-bottom: 0;
         }
-        & label{
+
+        & label {
             font-size: 14px;
             color: #242629;
             display: block;
@@ -260,18 +309,21 @@
             text-transform: uppercase;
             margin-bottom: 4px;
         }
-        & span{
+
+        & span {
             font-size: 18px;
             line-height: 30px;
         }
     }
 }
+
 .portfolio__pagination {
-    & .link-btn-2{
+    & .link-btn-2 {
         text-transform: uppercase;
         color: $heading-color;
         font-weight: 700;
-        & i{
+
+        & i {
             width: 65px;
             height: 65px;
             background: $grey-color;
@@ -283,33 +335,40 @@
             margin-right: 10px;
             display: inline-block;
             @include transition(0.3s);
-            &:last-child{
+
+            &:last-child {
                 margin-left: 10px;
             }
-            &:hover{
+
+            &:hover {
                 background-color: #222222;
                 color: $grey-color;
             }
         }
-    } 
+    }
 }
-.pagination-border{
+
+.pagination-border {
     border-top: 1px solid $border-color;
     border-bottom: 1px solid $border-color;
 }
+
 .swiper-slide-active .kproject-text {
-	opacity: 0;
-	visibility:hidden;
+    opacity: 0;
+    visibility: hidden;
 }
+
 .react-tabs__tab:focus {
     box-shadow: none !important;
     border: none !important;
 }
+
 .aportfolio-menu2 {
-    @include mq(md){
+    @include mq(md) {
         margin-bottom: 50px;
     }
-    @include mq(xs){
+
+    @include mq(xs) {
         margin-bottom: 50px;
     }
 }

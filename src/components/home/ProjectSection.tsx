@@ -31,7 +31,7 @@ const ProjectSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="project-active">
+            <div className="project-active ml-20 mr-20">
                 <div>
                     <Swiper
                         modules={[Navigation, A11y, Autoplay]}
@@ -71,7 +71,7 @@ const ProjectSection = () => {
                                             <h5 className="kproject-text-title"><Link href={`/project-details/${item.id}`}>{item.title}</Link></h5>
                                         </div>
                                         <div className="kproject-text-icon">
-                                            <Link href={`/project-details/${item.id}`}><i className="far fa-long-arrow-right"></i></Link>
+                                            <Link href={`${item.link}`} target='_blank'><i className="far fa-long-arrow-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>

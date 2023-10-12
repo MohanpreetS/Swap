@@ -1,6 +1,7 @@
 // context api data type
 
 import { StaticImageData } from "next/image";
+import { URL } from "url";
 
 export interface AppContextType {
   sideMenuOpen?: boolean;
@@ -25,6 +26,7 @@ export interface projectType {
   design?: boolean;
   development?: boolean;
   networking?: boolean;
+  link?: string;
 }
 
 // event type

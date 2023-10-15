@@ -7,10 +7,10 @@ const ServiceDetailsSidebar = () => {
             <div className="widget_categories grey-bg">
                 <h4 className="bs-widget-title pl-20">Categories</h4>
                 <ul>
-                    <li><Link href="/service-details#web-dev">Web Developement <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details#app-dev">App Development <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details#seo-dev">Search Engine Optimization <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details#dm-dev">Digital Marketing <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="#web-dev">Web Developement <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="#app-dev">App Development <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="#seo-dev">Search Engine Optimization <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><Link href="#dm-dev">Digital Marketing <i className="far fa-long-arrow-right"></i></Link></li>
                     <li><Link href="/service-details#erp-dev">ERP Solutions <i className="far fa-long-arrow-right"></i></Link></li>
                     <li><Link href="/service-details#crm-dev">CRM Solutions Solutions <i className="far fa-long-arrow-right"></i></Link></li>
                     <li><Link href="/service-details#cra-dev">Cyber Security <i className="far fa-long-arrow-right"></i></Link></li>

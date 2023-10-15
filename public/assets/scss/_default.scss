@@ -13,6 +13,7 @@ body {
   font-size: $body-fz;
   font-family: $body-fonts;
   font-weight: 400;
+  scroll-behavior: smooth !important;
 }
 
 @media (min-width: 1400px) {

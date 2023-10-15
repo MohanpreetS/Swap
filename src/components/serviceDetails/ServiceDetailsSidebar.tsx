@@ -10,11 +10,11 @@ const ServiceDetailsSidebar = () => {
                     <li><a href="#web-dev">Web Developement <i className="far fa-long-arrow-right"></i></a></li>
                     <li><a href="#app-dev">App Development <i className="far fa-long-arrow-right"></i></a></li>
                     <li><a href="#seo-dev">Search Engine Optimization <i className="far fa-long-arrow-right"></i></a></li>
-                    <li><Link href="#dm-dev">Digital Marketing <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details#erp-dev">ERP Solutions <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details#crm-dev">CRM Solutions Solutions <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details#cra-dev">Cyber Security <i className="far fa-long-arrow-right"></i></Link></li>
-                    <li><Link href="/service-details#it-dev">IT Service Management <i className="far fa-long-arrow-right"></i></Link></li>
+                    <li><a href="#dm-dev">Digital Marketing <i className="far fa-long-arrow-right"></i></a></li>
+                    <li><a href="/service-details#erp-dev">ERP Solutions <i className="far fa-long-arrow-right"></i></a></li>
+                    <li><a href="/service-details#crm-dev">CRM Solutions Solutions <i className="far fa-long-arrow-right"></i></a></li>
+                    <li><a href="/service-details#cra-dev">Cyber Security <i className="far fa-long-arrow-right"></i></a></li>
+                    <li><a href="/service-details#it-dev">IT Service Management <i className="far fa-long-arrow-right"></i></a></li>
                 </ul>
             </div>
             <div className="widget-btn mt-30">
